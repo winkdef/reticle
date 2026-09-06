@@ -2,9 +2,9 @@
   "name": "@reticlehq/example-next",
   "private": true,
   "version": "2.13.1",
-  "description": "Minimal Next.js (App Router) app — verifies Reticle via withReticle + a dev-only client connect.",
+  "description": "Minimal Next.js (App Router) app \u2014 verifies Reticle via withReticle + a dev-only client connect.",
   "scripts": {
-    "dev": "next dev --webpack -p 5302",
+    "dev": "node init && next dev --webpack -p 5302",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

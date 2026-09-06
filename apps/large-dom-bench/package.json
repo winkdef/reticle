@@ -5,7 +5,7 @@
   "description": "A deliberately large, non-virtualized DOM (thousands of nodes) used to measure the token wedge: full-snapshot cost vs a targeted verify loop.",
   "type": "module",
   "scripts": {
-    "dev": "vite"
+    "dev": "node init && vite"
   },
   "dependencies": {
     "@reticlehq/browser": "workspace:*"

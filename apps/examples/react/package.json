@@ -3,9 +3,9 @@
   "private": true,
   "version": "2.13.1",
   "type": "module",
-  "description": "Minimal Vite + React app — verifies Reticle integration via the reticle() Vite plugin.",
+  "description": "Minimal Vite + React app \u2014 verifies Reticle integration via the reticle() Vite plugin.",
   "scripts": {
-    "dev": "vite --port 5301"
+    "dev": "node init && vite --port 5301"
   },
   "dependencies": {
     "@reticlehq/react": "workspace:*",

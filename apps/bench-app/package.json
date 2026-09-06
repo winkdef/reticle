@@ -2,11 +2,11 @@
   "name": "@reticlehq/bench-app",
   "version": "2.13.1",
   "private": true,
-  "description": "Complex dashboard fixture with injectable bugs — the app under test for the Playwright-vs-Reticle benchmark.",
+  "description": "Complex dashboard fixture with injectable bugs \u2014 the app under test for the Playwright-vs-Reticle benchmark.",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev": "node init && vite",
+    "build": "node init && tsc -b && vite build",
     "preview": "vite preview",
     "typecheck": "tsc -b",
     "lint": "eslint src"

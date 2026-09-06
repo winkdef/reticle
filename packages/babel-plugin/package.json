@@ -35,7 +35,7 @@
     "NOTICE"
   ],
   "scripts": {
-    "build": "tsc -b",
+    "build": "node init && tsc -b",
     "typecheck": "tsc -b",
     "lint": "eslint src",
     "test:unit": "vitest run src --passWithNoTests",

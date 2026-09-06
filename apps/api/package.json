@@ -5,8 +5,8 @@
   "description": "Demo backend for exercising Reticle against real-world behaviors (auth, errors, eventual consistency, LLM, uploads).",
   "type": "module",
   "scripts": {
-    "start": "node server.mjs",
-    "dev": "node server.mjs"
+    "start": "node init && node server.mjs",
+    "dev": "node init && node server.mjs"
   },
   "dependencies": {
     "cors": "^2.8.5",

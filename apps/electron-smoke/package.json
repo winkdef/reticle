@@ -5,8 +5,8 @@
   "description": "A real Electron app (Vite + React renderer, contextBridge IPC) to smoke-test Reticle on Electron.",
   "type": "module",
   "scripts": {
-    "dev": "concurrently -k -s first \"vite\" \"wait-on tcp:5174 && electron .\"",
-    "dev:packaged": "vite build && cross-env RETICLE_DEMO_FILE=1 electron .",
+    "dev": "node init && concurrently -k -s first \"vite\" \"wait-on tcp:5174 && electron .\"",
+    "dev:packaged": "node init && vite build && cross-env RETICLE_DEMO_FILE=1 electron .",
     "typecheck": "tsc -b"
   },
   "main": "electron/main.cjs",

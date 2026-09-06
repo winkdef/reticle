@@ -1,7 +1,7 @@
 {
   "name": "@reticlehq/react",
   "version": "2.13.1",
-  "description": "Reticle React adapter — maps a DOM ref to its component stack and source file via the fiber tree.",
+  "description": "Reticle React adapter \u2014 maps a DOM ref to its component stack and source file via the fiber tree.",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -17,7 +17,7 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "build": "tsc -b",
+    "build": "node init && tsc -b",
     "typecheck": "tsc -b",
     "lint": "eslint src",
     "test:unit": "vitest run src --passWithNoTests",
