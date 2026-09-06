@@ -124,3 +124,6 @@ leads/
 # Maintainer rules for GitHub conduct — issues, PRs, releases. Deliberately private: it names the
 # mistakes that produced each rule, and those belong to the people who made them, not to the repo.
 /GITHUB.md
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
