@@ -2,11 +2,11 @@
   "name": "@reticlehq/atlas",
   "version": "2.13.1",
   "private": true,
-  "description": "The hard fixture: a logistics console with server-authoritative state, push updates, virtualization and a branching flow — built to find what Reticle cannot see.",
+  "description": "The hard fixture: a logistics console with server-authoritative state, push updates, virtualization and a branching flow \u2014 built to find what Reticle cannot see.",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "typecheck": "tsc -b"
   },
   "dependencies": {

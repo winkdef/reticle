@@ -3,9 +3,9 @@
   "private": true,
   "version": "2.13.1",
   "type": "module",
-  "description": "Minimal React Router 7 (Remix) app — verifies Reticle via a dev-only client connect (SSR, no plugin injection).",
+  "description": "Minimal React Router 7 (Remix) app \u2014 verifies Reticle via a dev-only client connect (SSR, no plugin injection).",
   "scripts": {
-    "dev": "react-router dev",
+    "dev": "node init && react-router dev",
     "typecheck": "react-router typegen && tsc --noEmit"
   },
   "dependencies": {

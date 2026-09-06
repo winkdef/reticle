@@ -19,8 +19,8 @@
     }
   },
   "scripts": {
-    "build": "tsc -b",
-    "dev": "tsc -b --watch",
+    "build": "node init && tsc -b",
+    "dev": "node init && tsc -b --watch",
     "typecheck": "tsc -b",
     "lint": "eslint src",
     "test:unit": "vitest run src --passWithNoTests",

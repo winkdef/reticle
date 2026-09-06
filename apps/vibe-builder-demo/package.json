@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "preview": "vite",
-    "build": "vite build",
+    "build": "node init && vite build",
     "verify": "node qa/verify-live.mjs",
     "bench": "node qa/bench.mjs",
     "repair": "node qa/repair-loop.mjs",

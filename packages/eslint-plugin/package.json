@@ -1,7 +1,7 @@
 {
   "name": "@reticlehq/eslint-plugin",
   "version": "2.13.1",
-  "description": "Reticle ESLint plugin — keeps the signal layer self-enforcing (mutation-without-signal).",
+  "description": "Reticle ESLint plugin \u2014 keeps the signal layer self-enforcing (mutation-without-signal).",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -12,7 +12,7 @@
     }
   },
   "scripts": {
-    "build": "tsc -b",
+    "build": "node init && tsc -b",
     "typecheck": "tsc -b",
     "lint": "eslint src",
     "test:unit": "vitest run src --passWithNoTests",
